@@ -46,7 +46,7 @@ class TrafficFlow extends React.Component {
       redirectedFrom: undefined,
       selectedChart: undefined,
       displayOptions: {
-        allowDraggingOfNodes: false,
+        allowDraggingOfNodes: true,
         showLabels: true
       },
       currentGraph_physicsOptions: {
@@ -178,8 +178,8 @@ class TrafficFlow extends React.Component {
         this.state.currentView[1] !== nextState.currentView[1] ||
         this.state.highlightedObject !== nextState.highlightedObject) {
       const titleArray = (nextState.currentView || []).slice(0);
-      titleArray.unshift('Vizceral');
-      document.title = titleArray.join(' / ');
+      titleArray.unshift('AHM');
+      //document.title = titleArray.join(' / ');
 
       if (this.poppedState) {
         this.poppedState = false;
@@ -324,7 +324,7 @@ class TrafficFlow extends React.Component {
             <strong>{this.state.redirectedFrom.join('/') || '/'}</strong> does not exist, you were redirected to <strong>{this.state.currentView.join('/') || '/'}</strong> instead
           </Alert>
         : undefined }
-        <div className="subheader">
+        <div className="subheader" style={{ display: 'none' }}>
           <Breadcrumbs rootTitle="global" navigationStack={this.state.currentView || []} navigationCallback={this.navigationCallback} />
           <UpdateStatus status={this.state.regionUpdateStatus} baseOffset={this.state.timeOffset} warnThreshold={180000} />
           <div style={{ float: 'right', paddingTop: '4px' }}>

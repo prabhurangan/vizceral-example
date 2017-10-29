@@ -15,6 +15,9 @@ body {
 .color-normal, .severity0 {
   color: var(--colorNormal);
 }
+.color-healthy, .severity0 {
+  color: var(--colorNormalHS);
+}
 
 .color-warning, .severity1 {
   color: var(--colorWarning);
@@ -99,6 +102,7 @@ body > .container {
 :root, .vizceral {
   --colorText: rgb(214, 214, 214);
   --colorTextDisabled: rgb(129, 129, 129);
+  --colorNormalHS: rgb(23, 216, 46);
   --colorNormal: rgb(186, 213, 237);
   --colorWarning: rgb(268, 185, 73);
   --colorDanger: rgb(184, 36, 36);
