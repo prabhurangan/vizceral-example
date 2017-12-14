@@ -1,963 +1,428 @@
 {
- "renderer": "global",
- "name": "edge",
- "nodes": [
-  {
-   "renderer": "region",
-   "name": "INTERNET",
-   "displayName": "INTERNET",
-   "nodes": [],
-   "metadata": {},
-   "class": "normal",
-   "connections": []
-  },
-  {
-   "renderer": "region",
-   "name": "phx",
-   "displayName": "PHX",
-   "updated": 1477690452072,
-   "nodes": [
-    {
-     "name": "INTERNET",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "xonyx-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "xoneor-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "picaxo-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "xosoav4-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "xosvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "coms2-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "opmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "pgwpmtsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "pgwsecsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "gwsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "xosoa-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "wmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "pmtinssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "signin-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "fedauth-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "fedsignin-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "autopmtgw-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "autosvcs-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    },
-    {
-     "name": "autobkend-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 2",
-       "severity": 2
-      }
-     ]
-    },
-    {
-     "name": "autosrch-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 1",
-       "severity": 1
-      }
-     ]
-    },
-    {
-     "name": "autofront-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "renderer": "focusedChild",
-     "notices": [
-      {
-       "title": "Health Score: 0",
-       "severity": 0
-      }
-     ]
-    }
-   ],
-   "connections": [
-    {
-     "source": "INTERNET",
-     "target": "fedauth-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "warning": 0.9199999999999999,
-      "danger": 55.14600000000001,
-      "normal": 21140.684
-     },
-     "notices": [
-      {
-       "title": "CPU usage average at 80%",
-       "link": "",
-       "severity": 1
+    "renderer”: "global”,
+    "name”: "edge”,
+    "nodes”: [
+     {
+      "renderer”: "region”,
+      "name”: "alerts”,
+      "displayName”: "Network Alerts”,
+      "updated”: 1477690452072,
+      "nodes”: [
+       {
+        "name”: "lvs2-ha060”,
+        "metadata”: {
+         "streaming”: 10,
+         "deviceType”: "switch”
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs2h01”,
+        "metadata”: {
+         "streaming”: 1,
+         "deviceType”: "bubble”
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs2-eBay”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs2-ra2072”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "null”,
+        "metadata”: {
+         "streaming”: 1
+        },
+         "position”: {"x”: 120, "y”: 150},
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "UNDEF”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs2b02",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs2-ra2087",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs3-ed501",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs3b05",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs3-eBay”,
+        "metadata”: {
+         "streaming”: 1,
+         "deviceType”: "pod”
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvs2-ed502",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvt10-ed12",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvt10",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "LVT-Fabric”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvx02-pr01",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "lvx02",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "LVX-Fabric”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "nix2-xr02",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "nix2-Equinix”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx1-xr03",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx1-eBay ",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx4-ed04",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx4",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx4-imd”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx4-ed403",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx4b04",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       },
+       {
+        "name”: "phx4-eBay”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "renderer”: "focusedChild”
+       }
+      ],
+      "connections”: [
+       {
+        "source”: "lvs2-ha060”,
+        "target”: "lvs2h01”,
+        "metadata”: {
+         "streaming”: 1
+       },
+       "metrics”: {
+        "danger”: 0.002,
+        "normal”: 101.02000000000001
+       }
+       },
+       {
+        "source”: "lvs2h01",
+        "target”: "lvs2-eBay”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+   
+       },
+       {
+        "source”: "lvs2-ra2072”,
+        "target”: "lvs2b02”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvs2b02",
+        "target”: "lvs2-eBay”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvs2-ra2087”,
+        "target”: "lvs2b02”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvs3-ed501",
+        "target”: "lvs3b05",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvs3b05”,
+        "target”: "lvs3-eBay”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvs2-ed502",
+        "target”: "lvs3b05",
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvt10-ed12”,
+        "target”: "lvt10”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvt10",
+        "target”: "LVT-Fabric”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvx02-pr01”,
+        "target”: "lvx02”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "lvx02",
+        "target”: "LVX-Fabric”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "nix2-xr02”,
+        "target”: "null”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "null”,
+        "target”: "nix2-Equinix”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "phx1-xr03”,
+        "target”: "UNDEF”,
+        "metadata”: {
+         "streaming”: 1
+        },
+        "metrics”: {
+         "danger”: 0.002,
+         "normal”: 101.02000000000001
+        }
+       },
+       {
+        "source”: "UNDEF”,
+        "target”: "phx1-eBay”,
+        "metadata”: {
+         "streaming”: 100
+        },
+        "metrics”: {
+         "danger”: 100,
+         "normal”: 101.02000000000001
+        }
+       }
+      ],
+      "maxVolume”: 67936.982,
+      "props”: {
+       "maxSemaphores”: [
+        {
+         "targetRegion”: "lvs”,
+         "region”: "slc”,
+         "value”: "20"
+        },
+        {
+         "targetRegion”: "slc”,
+         "region”: "phx”,
+         "value”: "160"
+        },
+        {
+         "targetRegion”: "slc”,
+         "region”: "lvs”,
+         "value”: "20"
+        },
+        {
+         "targetRegion”: "phx”,
+         "region”: "lvs”,
+         "value”: "20"
+        },
+        {
+         "targetRegion”: "phx”,
+         "region”: "slc”,
+         "value”: "200"
+        }
+       ]
       },
-      {
-       "title": ""
-      }
-     ]
-    },
-    {
-     "source": "xonyx-app",
-     "target": "xoneor-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
+      "metadata”: {},
+      "class”: "normal”
      }
-    },
-    {
-     "source": "xonyx-app",
-     "target": "picaxo-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xonyx-app",
-     "target": "pmtinssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xonyx-app",
-     "target": "signin-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "fedauth-app",
-     "target": "xonyx-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xoneor-app",
-     "target": "xosoav4-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xoneor-app",
-     "target": "xosvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xonyx-app",
-     "target": "xoneor-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "picaxo-app",
-     "target": "xosoav4-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "picaxo-app",
-     "target": "xosvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xonyx-app",
-     "target": "picaxo-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "opmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "wmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "xosoa-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "pmtinssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xoneor-app",
-     "target": "xosoav4-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "picaxo-app",
-     "target": "xosoav4-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "coms2-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "wmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "xosoa-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "pmtinssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xoneor-app",
-     "target": "xosvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "picaxo-app",
-     "target": "xosvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "coms2-app",
-     "target": "opmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "coms2-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "opmssvc-app",
-     "target": "pgwpmtsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "opmssvc-app",
-     "target": "gwsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "opmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "coms2-app",
-     "target": "opmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "pgwpmtsvc-app",
-     "target": "pgwsecsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "pgwpmtsvc-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "opmssvc-app",
-     "target": "pgwpmtsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "pgwpmtsvc-app",
-     "target": "pgwsecsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "gwsvc-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "opmssvc-app",
-     "target": "gwsvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "gwsvc-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "tidessoa01-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "xosoa-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "xosoa-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "wmssvc-app",
-     "target": "pmtinssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosoav4-app",
-     "target": "wmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    },
-    {
-     "source": "xosvc-app",
-     "target": "wmssvc-app",
-     "metadata": {
-      "streaming": 1
-     },
-     "metrics": {
-      "danger": 0.002,
-      "normal": 101.02000000000001
-     }
-    }
-   ],
-   "maxVolume": 67936.982,
-   "props": {
-    "maxSemaphores": [
-     {
-      "targetRegion": "lvs",
-      "region": "slc",
-      "value": "20"
-     },
-     {
-      "targetRegion": "slc",
-      "region": "phx",
-      "value": "160"
-     },
-     {
-      "targetRegion": "slc",
-      "region": "lvs",
-      "value": "20"
-     },
-     {
-      "targetRegion": "phx",
-      "region": "lvs",
-      "value": "20"
-     },
-     {
-      "targetRegion": "phx",
-      "region": "slc",
-      "value": "200"
-     }
-    ]
-   },
-   "metadata": {},
-   "class": "normal"
-  }
- ],
- "connections": [
-  {
-   "source": "INTERNET",
-   "target": "phx",
-   "metrics": {
-    "normal": 100,
-    "danger": 0,
-    "warning": 0
-   },
-   "notices": [],
-   "class": "normal"
-  },
-  {
-   "source": "INTERNET",
-   "target": "slc",
-   "metrics": {
-    "danger": 130.71200000000002,
-    "normal": 63139.416,
-    "warning": 0.10200000000000001
-   },
-   "notices": [],
-   "class": "normal"
-  },
-  {
-   "source": "INTERNET",
-   "target": "lvs",
-   "metrics": {
-    "normal": 31464.322000000004,
-    "danger": 97.60600000000001,
-    "warning": 0.006
-   },
-   "notices": [],
-   "class": "normal"
-  },
-  {
-   "source": "lvs",
-   "target": "slc",
-   "metrics": {
-    "normal": 0.024,
-    "danger": 0,
-    "warning": 0
+    ],
+    "connections”:[],
+    "serverUpdateTime”: 1477691777441
    }
-  },
-  {
-   "source": "lvs",
-   "target": "phx",
-   "metrics": {
-    "normal": 0.024,
-    "danger": 0,
-    "warning": 0
-   }
-  },
-  {
-   "source": "phx",
-   "target": "slc",
-   "metrics": {
-    "normal": 0.024,
-    "danger": 0,
-    "warning": 0
-   }
-  },
-  {
-   "source": "phx",
-   "target": "lvs",
-   "metrics": {
-    "normal": 0.19200000000000006,
-    "danger": 0,
-    "warning": 0
-   }
-  },
-  {
-   "source": "slc",
-   "target": "lvs",
-   "metrics": {
-    "normal": 0.16800000000000004,
-    "danger": 0,
-    "warning": 0
-   }
-  },
-  {
-   "source": "slc",
-   "target": "phx",
-   "metrics": {
-    "normal": 0.07,
-    "danger": 0,
-    "warning": 0
-   }
-  }
- ],
- "serverUpdateTime": 1477691777441
-}
+   
