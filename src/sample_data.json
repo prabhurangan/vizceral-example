@@ -1,428 +1,428 @@
 {
-    "renderer”: "global”,
-    "name”: "edge”,
-    "nodes”: [
+    "renderer": "global",
+    "name": "edge",
+    "nodes": [
      {
-      "renderer”: "region”,
-      "name”: "alerts”,
-      "displayName”: "Network Alerts”,
-      "updated”: 1477690452072,
-      "nodes”: [
+      "renderer": "region",
+      "name": "alerts",
+      "displayName": "Network Alerts",
+      "updated": 1477690452072,
+      "nodes": [
        {
-        "name”: "lvs2-ha060”,
-        "metadata”: {
-         "streaming”: 10,
-         "deviceType”: "switch”
+        "name": "lvs2-ha060",
+        "metadata": {
+         "streaming": 10,
+         "deviceType": "switch"
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs2h01”,
-        "metadata”: {
-         "streaming”: 1,
-         "deviceType”: "bubble”
+        "name": "lvs2h01",
+        "metadata": {
+         "streaming": 1,
+         "deviceType": "bubble"
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs2-eBay”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs2-eBay",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs2-ra2072”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs2-ra2072",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "null”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "null",
+        "metadata": {
+         "streaming": 1
         },
-         "position”: {"x”: 120, "y”: 150},
-        "renderer”: "focusedChild”
+         "position": {"x": 120, "y": 150},
+        "renderer": "focusedChild"
        },
        {
-        "name”: "UNDEF”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "UNDEF",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs2b02",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs2b02",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs2-ra2087",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs2-ra2087",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs3-ed501",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs3-ed501",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs3b05",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs3b05",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs3-eBay”,
-        "metadata”: {
-         "streaming”: 1,
-         "deviceType”: "pod”
+        "name": "lvs3-eBay",
+        "metadata": {
+         "streaming": 1,
+         "deviceType": "pod"
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvs2-ed502",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvs2-ed502",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvt10-ed12",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvt10-ed12",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvt10",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvt10",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "LVT-Fabric”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "LVT-Fabric",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvx02-pr01",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvx02-pr01",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "lvx02",
-        "metadata”: {
-         "streaming”: 1
+        "name": "lvx02",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "LVX-Fabric”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "LVX-Fabric",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "nix2-xr02",
-        "metadata”: {
-         "streaming”: 1
+        "name": "nix2-xr02",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "nix2-Equinix”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "nix2-Equinix",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx1-xr03",
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx1-xr03",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx1-eBay ",
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx1-eBay ",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx4-ed04",
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx4-ed04",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx4",
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx4",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx4-imd”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx4-imd",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx4-ed403",
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx4-ed403",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx4b04",
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx4b04",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        },
        {
-        "name”: "phx4-eBay”,
-        "metadata”: {
-         "streaming”: 1
+        "name": "phx4-eBay",
+        "metadata": {
+         "streaming": 1
         },
-        "renderer”: "focusedChild”
+        "renderer": "focusedChild"
        }
       ],
-      "connections”: [
+      "connections": [
        {
-        "source”: "lvs2-ha060”,
-        "target”: "lvs2h01”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs2-ha060",
+        "target": "lvs2h01",
+        "metadata": {
+         "streaming": 1
        },
-       "metrics”: {
-        "danger”: 0.002,
-        "normal”: 101.02000000000001
+       "metrics": {
+        "danger": 0.002,
+        "normal": 101.02000000000001
        }
        },
        {
-        "source”: "lvs2h01",
-        "target”: "lvs2-eBay”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs2h01",
+        "target": "lvs2-eBay",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
    
        },
        {
-        "source”: "lvs2-ra2072”,
-        "target”: "lvs2b02”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs2-ra2072",
+        "target": "lvs2b02",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvs2b02",
-        "target”: "lvs2-eBay”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs2b02",
+        "target": "lvs2-eBay",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvs2-ra2087”,
-        "target”: "lvs2b02”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs2-ra2087",
+        "target": "lvs2b02",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvs3-ed501",
-        "target”: "lvs3b05",
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs3-ed501",
+        "target": "lvs3b05",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvs3b05”,
-        "target”: "lvs3-eBay”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs3b05",
+        "target": "lvs3-eBay",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvs2-ed502",
-        "target”: "lvs3b05",
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvs2-ed502",
+        "target": "lvs3b05",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvt10-ed12”,
-        "target”: "lvt10”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvt10-ed12",
+        "target": "lvt10",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvt10",
-        "target”: "LVT-Fabric”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvt10",
+        "target": "LVT-Fabric",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvx02-pr01”,
-        "target”: "lvx02”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvx02-pr01",
+        "target": "lvx02",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "lvx02",
-        "target”: "LVX-Fabric”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "lvx02",
+        "target": "LVX-Fabric",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "nix2-xr02”,
-        "target”: "null”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "nix2-xr02",
+        "target": "null",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "null”,
-        "target”: "nix2-Equinix”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "null",
+        "target": "nix2-Equinix",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "phx1-xr03”,
-        "target”: "UNDEF”,
-        "metadata”: {
-         "streaming”: 1
+        "source": "phx1-xr03",
+        "target": "UNDEF",
+        "metadata": {
+         "streaming": 1
         },
-        "metrics”: {
-         "danger”: 0.002,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 0.002,
+         "normal": 101.02000000000001
         }
        },
        {
-        "source”: "UNDEF”,
-        "target”: "phx1-eBay”,
-        "metadata”: {
-         "streaming”: 100
+        "source": "UNDEF",
+        "target": "phx1-eBay",
+        "metadata": {
+         "streaming": 100
         },
-        "metrics”: {
-         "danger”: 100,
-         "normal”: 101.02000000000001
+        "metrics": {
+         "danger": 100,
+         "normal": 101.02000000000001
         }
        }
       ],
-      "maxVolume”: 67936.982,
-      "props”: {
-       "maxSemaphores”: [
+      "maxVolume": 67936.982,
+      "props": {
+       "maxSemaphores": [
         {
-         "targetRegion”: "lvs”,
-         "region”: "slc”,
-         "value”: "20"
+         "targetRegion": "lvs",
+         "region": "slc",
+         "value": "20"
         },
         {
-         "targetRegion”: "slc”,
-         "region”: "phx”,
-         "value”: "160"
+         "targetRegion": "slc",
+         "region": "phx",
+         "value": "160"
         },
         {
-         "targetRegion”: "slc”,
-         "region”: "lvs”,
-         "value”: "20"
+         "targetRegion": "slc",
+         "region": "lvs",
+         "value": "20"
         },
         {
-         "targetRegion”: "phx”,
-         "region”: "lvs”,
-         "value”: "20"
+         "targetRegion": "phx",
+         "region": "lvs",
+         "value": "20"
         },
         {
-         "targetRegion”: "phx”,
-         "region”: "slc”,
-         "value”: "200"
+         "targetRegion": "phx",
+         "region": "slc",
+         "value": "200"
         }
        ]
       },
-      "metadata”: {},
-      "class”: "normal”
+      "metadata": {},
+      "class": "normal"
      }
     ],
-    "connections”:[],
-    "serverUpdateTime”: 1477691777441
+    "connections":[],
+    "serverUpdateTime": 1477691777441
    }
    
