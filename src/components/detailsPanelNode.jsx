@@ -50,7 +50,7 @@ class DetailsPanelNode extends React.Component {
           </div>
         </div>
         <Notices notices={notices} />
-        { node && !node.isEntryNode() ?
+        { node && !node.isEntryNode() && node.nodes ?
           <DetailsSubpanelSubNodes nodes={node.nodes} region={this.state.region} expanded={true} />
         : undefined }
         { node && !node.isEntryNode() ?
